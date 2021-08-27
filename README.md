@@ -253,16 +253,27 @@ Estos puntos los presentarás en el `README.md`.
 
 ##### `README.md`
 
-Debe contener lo siguiente:
 
-* Un título con el nombre de tu proyecto.
-* Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
-* La imagen final de tu proyecto.
-* Investigación UX:
-  1. Explicar quiénes son los usuarios y los objetivos en relación con el
-    producto.
-  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
-    usuarios.
+# My First English Library
+
+Esta página es una biblioteca virtual para niños que quieran aprender inglés a través de la lectura. Para hacer uso de los recursos de la página, un suscriptor debe validar su tarjeta de crédito para obtener la membresía.
+
+Prototipo https://www.figma.com/file/F0lEELVAJQXZxj89PlP1Pb/Card-Validation?node-id=0%3A1
+
+## Investigación y diseño.
+
+Nuestros usuarios son niños, niños y niñes en etapa pre-escolar y escolar hasta los diez años, que gusten del inglés y deseen aprenderlo, cuyos padres o tutores quieran motivar este interés por medio de la lectura.
+
+Aprender inglés se ha vuelto una necesidad indispensable en el mundo actual, por ello muchos padres comienzan a incentivar desde la temprana edad el interés por este idioma a través de la lectura. Sin embargo la búsqueda de recursos apropiados para la edad del lector se hace dificultuosa para los tutores. Dada esta oportunidad, esta biblioteca ofrece lecturas clasificadas de acuerdo a la edad de los lectores para facilitar la transición de un nivel a otro.
+
+# ¡¡FALTA IMAGEN PROTOTIPO1!!
+
+## Feedback:
+De acuerdo a la retroalimentación obtenida el diseño contiene todas las partes requeridas para 
+
+# ¡¡QUEDAMOS ACÁ!!!
+
+
   3. Luego colocarás la foto de tu primer prototipo en papel.
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
   5. Imagen del prototipo final.
