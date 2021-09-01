@@ -1,0 +1,50 @@
+.header{
+    background: rgba(119, 197, 183, 0.59);
+    border-radius: 32px;
+    width: 90%;
+    height: 60px;
+    padding: 10px;
+    margin-left: 50px;
+    line-height: 5px;
+    margin-top: 5px;
+}
+.parrafo1{
+    color: #FFE145;
+    font-size: 64px;
+    text-align: center;
+}
+.parrafo2{
+    color: #FFE145;
+    font-size: 64px;
+    text-align: center;
+}
+.parrafo3{
+    color: #FFE145;
+    font-size: 60px;
+    text-align: center;
+}
+.parrafo4{
+    color: #D8B6DB;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 20px;
+}
+.formulario{
+    background: rgba(245, 237, 250, 0.45);
+    border-radius: 64px;
+    text-align: center;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.subscriber{
+    color: #2B225E ;
+    font-size: 25px;
+    line-height: 31px;
+}
+.suscriptor{
+    color: #2B225E;
+    font-size: 25px;
+    line-height: 31px;
+}
