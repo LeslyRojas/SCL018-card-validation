@@ -2,10 +2,11 @@
     padding: 10px;
     margin: 0px;
 }
-.container{
+body{
     background-image: url(imagenes/fondo.jpg);
     background-repeat: no-repeat ;
     background-size: contain;
+    margin:0;
 
 }
 .header{
@@ -31,9 +32,9 @@ h4{color: #FFE145;
 }
 .parrafo2{
     color: #FFE145;
-    font-size: 64px;
+    font-size: 45px;
     text-align: center;
-    line-height: 20px;
+    line-height: 0px;
 }
 .parrafo3{
     color: #FFE145;
@@ -45,7 +46,7 @@ h4{color: #FFE145;
     color: #D8B6DB;
     font-size: 26px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
     line-height: 0px;
 }
 .formulario{
@@ -78,7 +79,7 @@ h4{color: #FFE145;
     line-height: px;
 }
 .flexbox{
-    flex-direction: row-reverse;
+    display: display inline-flexbox
 }
 .boton{
     background: #FFE145;
@@ -89,3 +90,7 @@ h4{color: #FFE145;
     left: 640px;    
 }
 
+
+.valores{
+    display: display inline;
+}
