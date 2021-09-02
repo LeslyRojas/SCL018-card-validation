@@ -5,13 +5,7 @@
 body{
     background-image: url(imagenes/fondo.jpg);
     background-repeat: no-repeat ;
-<<<<<<< HEAD
-    background-size: contain;
-    margin:0;
-=======
     background-size: cover;
->>>>>>> 797af4958e3d91a96083d2f3512e7616f64528ce
-
 }
 .header{
     background: rgba(119, 197, 183, 0.59);
