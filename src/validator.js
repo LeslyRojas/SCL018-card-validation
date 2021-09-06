@@ -7,9 +7,6 @@ const validator = {
      
     let totalSum = 0;
 
-    //for (let i = 0; i < numbers.length; i++) {
-       //const number = numbers[i];
-       //const position = i + 1;
  
     
         }
