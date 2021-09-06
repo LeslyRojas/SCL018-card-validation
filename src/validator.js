@@ -7,13 +7,12 @@ const validator = {
      
     let totalSum = 0;
 
-    //for (let i = 0; i < numbers.length; i++) {
-       //const number = numbers[i];
+    //for (let i = 1; i < numbers.length; i+2) {
+       //const number = numbers[i]*2;
        //const position = i + 1;
  
     
         }
-    
-    };
+    }
 
 export default validator
