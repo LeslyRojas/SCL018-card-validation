@@ -7,12 +7,15 @@ const validator = {
      
     let totalSum = 0;
 
-    //for (let i = 1; i < numbers.length; i+2) {
-       //const number = numbers[i]*2;
-       //const position = i + 1;
+    for (let i = 0; i < invertidos.length; i = i + 2) {
+      const number = invertidos[i];
+      const position = i + 2;
+
+        if (position % 2 == 0){
+        const multiplicar = number * 2 }
  
     
         }
     }
-
+}
 export default validator
