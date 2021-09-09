@@ -3,7 +3,7 @@ const validator = {
     isValid (numeroTarjeta) {
 
     let invertidos = numeroTarjeta.toString().split("").reverse();
-    console.log(invertidos);
+    
      
     let sumaTotal = 0;
     
@@ -16,7 +16,7 @@ const validator = {
                 const primerDigito = parseInt(separarNumeros[0]);
                 const segundoDigito = parseInt(separarNumeros[1]);
                 const sumarSeparados = primerDigito + segundoDigito;
-                console.log(sumarSeparados);
+                
                 sumaTotal += sumarSeparados;
             } else{
                 sumaTotal += multiplicar; console.log(multiplicar);
@@ -25,7 +25,7 @@ const validator = {
                 sumaTotal += parseInt(invertidos[i]);
         }
     }
-            console.log(sumaTotal);
+            
 
             if (sumaTotal % 10 === 0){
 
