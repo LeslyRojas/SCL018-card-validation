@@ -9,7 +9,7 @@ const validator = {
     
     for (let i = 0; i < invertidos.length; i++) {
       
-        if (i % 2 == 0){
+        if (i % 2 === 1){
             const multiplicar = invertidos[i] * 2;  
             if (multiplicar > 9) {
                 const separarNumeros = multiplicar.toString().split("");
