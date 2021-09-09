@@ -28,12 +28,12 @@ const validator = {
             console.log(sumaTotal);
 
             if (sumaTotal % 10 === 0){
-                alert('tarjeta' + ' ' +  'válida');
+
                 return true;
                
               } 
               else {
-                alert('tarjeta' + ' ' +  'inválida');
+                
                 return false}
    
 
