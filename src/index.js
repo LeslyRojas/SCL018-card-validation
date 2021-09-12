@@ -1,5 +1,13 @@
 import validator from "./validator.js";
 
+
+
+let numero = document.getElementById("numeroTarjeta").onkeyup = function (){maskify()} ;    
+validator.maskify("numeroTarjeta");
+
+
+
+
 const boton = document.getElementById("enviarNumero");
 
 boton.addEventListener("click", () => {
