@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
+    <!--se agregó fuente desde google fonts, copiando links-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,6 +14,7 @@
   </head>
 
   <body>
+    <!--se agregaron clases e id, para poder invocarlas en CSS y JS-->
     <div class="container">
       <div class="header">
         <header>
@@ -23,6 +25,7 @@
       </div>
       <br /><br />
 
+      <!--se usó section para agrupar primera parte del contenido de la página-->
       <section>
         <p class="parrafo1">Join us</p>
         <p class="parrafo2">and start your adventure!</p>
@@ -33,51 +36,40 @@
       </section>
       <br /><br />
 
+      <!--se cambió form a section por error en consola, -->
       <main>
         <section class="formulario">
+          <!--se colocó imagen dentro de formulario para usarlo dentro del mismo section en CSS-->
           <img class="imagenLateral" src="imagenes/astonauta2.jpg" alt="" />
           <label class="subscriber">Subscriber name</label>
           <label class="suscriptor">Nombre suscriptor</label>
+          <!--cuadro de texto para ingresar nombre-->
           <input
-            type="text"
-            class="cuadroNombre"
-            name="nombre"
-            placeholder="Escriba su nombre"
-          /><br />
+            type="text"  class="cuadroNombre"  name="nombre"  placeholder="Escriba su nombre"/>
+            <br />
+
           <label class="card">Credit card number</label>
           <label class="tarjeta">Número de tarjeta de crédito</label>
+          <!--cuadro de texto para ingresa número de tarjeta-->
           <input
-            type="text"
-            class="cuadroTarjeta"
-            name="numeroTarjeta"
-            id="numeroTarjeta"
-            maxlength="16"
-            placeholder="Ingrese su tarjeta"
+            type="text" class="cuadroTarjeta" name="numeroTarjeta" id="numeroTarjeta" maxlength="16" placeholder="Ingrese su tarjeta"
           /><br />
 
+          <!--botones tipo radiobutton para elegir membresía-->
           <input
-            class="botonesMembresia"
-            type="radio"
-            class="membresia"
-            name="membresia"
-            value="firstMonth"
-          />
+            class="botonesMembresia" type="radio" class="membresia" name="membresia" value="firstMonth"/>
           First Month
+         
           <input
-            type="radio"
-            class="membresia"
-            name="membresia"
-            value="sixmonths"
-          />
+            type="radio" class="membresia" name="membresia" value="sixmonths" />
           6 Months
+          
           <input
-            type="radio"
-            class="membresia"
-            name="membresia"
-            value="oneyear"
-          />
-          1 year <br />
+            type="radio" class="membresia" name="membresia" value="oneyear"/>
+          1 year 
+          <br />
 
+          <!--boton queda dentro del formulario-->
           <button class="enviarNumero" id="enviarNumero">Register</button>
 
           <!--<p class="gratis" name="valores">Prueba gratuita</p>
@@ -88,6 +80,7 @@
       </main>
       <br />
 
+      <!--pie de página-->
       <section class="pie">
         <footer class="footer">CopyrightMyFirstLibrary2021</footer>
       </section>
