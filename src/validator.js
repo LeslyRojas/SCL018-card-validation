@@ -1,5 +1,6 @@
 const validator = {
   isValid(numeroTarjeta) {
+    if (numeroTarjeta.length < 1) return false;
     let invertidos = numeroTarjeta.toString().split("").reverse();
 
     let sumaTotal = 0;
