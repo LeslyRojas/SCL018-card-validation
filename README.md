@@ -265,7 +265,7 @@ Nuestros usuarios son niños, niños y niñes en etapa pre-escolar y escolar has
 
 Aprender inglés se ha vuelto una necesidad indispensable en el mundo actual, por ello muchos padres comienzan a incentivar desde la temprana edad el interés por este idioma a través de la lectura. Sin embargo la búsqueda de recursos apropiados para la edad del lector se hace dificultuosa para los tutores. Dada esta oportunidad, esta biblioteca ofrece lecturas clasificadas de acuerdo a la edad de los lectores para facilitar la transición de un nivel a otro.
 
-# Prototipo 1 [C:\Users\56992\Desktop\LABORATORIA\PROYECTO CARD-VALIDATION\SCL018-card-validation\src\imagenes\prototipo1.png]
+# Prototipo 1 https://drive.google.com/file/d/1mjJqknU16nPm3xKkejaH7xadpnAMsDd-/view?usp=sharing
 
 ## Feedback:
 
@@ -380,8 +380,8 @@ mínimo del 50% de _branches_ (ramas).
    repositorio de su compañera** y
    [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) un `remote`
    hacia el mismo.
-4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
-   tu _fork_ a tu computadora (copia local).
+4. :arrow*down: [Clona](https://help.github.com/articles/cloning-a-repository/)
+   tu \_fork* a tu computadora (copia local).
 5. 📦 Instala las dependencias del proyecto con el comando `npm install`. Esto
    asume que has instalado [Node.js](https://nodejs.org/) (que incluye [npm](https://docs.npmjs.com/)).
 6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
