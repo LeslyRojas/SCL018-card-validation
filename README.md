@@ -275,6 +275,9 @@ De acuerdo a la retroalimentación obtenida el diseño contiene todas las partes
 
 
   3. Luego colocarás la foto de tu primer prototipo en papel.
+  
+  ![Prototipo en papel](imagenes/prototipoPapel.jpg)
+
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
   5. Imagen del prototipo final.
 
