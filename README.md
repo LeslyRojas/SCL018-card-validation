@@ -257,8 +257,10 @@ cómo tu aplicación lo soluciona.
 
 Esta página es una biblioteca virtual para niños que quieran aprender inglés a través de la lectura. Para hacer uso de los recursos de la página, un suscriptor debe validar su tarjeta de crédito para obtener la membresía.
 
-Prototipo
-![prototipo final](src\imagenes\Prototipo2.png)
+## Prototipo final.
+
+<img src=src/imagenes/prototipo2.png width=300px>
+
 
  
 
@@ -268,22 +270,37 @@ Nuestros usuarios son niños, niños y niñes en etapa pre-escolar y escolar has
 
 Aprender inglés se ha vuelto una necesidad indispensable en el mundo actual, por ello muchos padres comienzan a incentivar desde la temprana edad el interés por este idioma a través de la lectura. Sin embargo la búsqueda de recursos apropiados para la edad del lector se hace dificultuosa para los tutores. Dada esta oportunidad, esta biblioteca ofrece lecturas clasificadas de acuerdo a la edad de los lectores para facilitar la transición de un nivel a otro.
 
-# Prototipo 1 
-![prototipo1](src/imagenes/prototipo1.png)
+## Primer prototipo.
+<img src=src/imagenes/prototipo1.png width=300px/>
+
 
 ## Feedback:
 
-De acuerdo a la retroalimentación obtenida el diseño contiene todas las partes requeridas para
+De acuerdo a la retroalimentación obtenida la idea de la biblioteca virtual en inglés para niños es llamativa, que contiene todas las partes requeridas para estructurar la página, con un diseño atractivo. Sin embargo el prototipo inicial estaba completamente en inglés pudiendo dificultar la interacción del usuario con la página.
 
-# ¡¡QUEDAMOS ACÁ!!!
+Por otra parte, el diseño incluía botones que quedarían inactivos (login,language), por lo que se recomendó ocultarlos o eliminarlos.
 
-3. Luego colocarás la foto de tu primer prototipo en papel.
-![foto](src\imagenes\prototipoPapel.jpg)
+### Prototipo en papel.
+<img src=src\imagenes\prototipoPapel.jpg width=300px/>
+
+En base al feedback recibido al mostrar el prototipo en papel y el primer prototipo en Figma, decidimos mantener el estilo pero eliminamos los botones que no tendrían funcionalidad. Se agregaron algunas traducciones en español de algunos conceptos claves para el uso de la página.
+
+En relación a la barra de menú decidimos dejarla para una etapa de hacking, en esta el usuario puede tener acceso a un contenido de muestra de forma gratuita.
+
+
+link Prototipo en Figma
+https://www.figma.com/file/F0lEELVAJQXZxj89PlP1Pb/Card-Validation?node-id=0%3A1
+
+<img src=src/imagenes/prototipo2.png width=250px>
 
 
 
-4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
-5. Imagen del prototipo final.
+
+
+
+
+
+
 
 #### Visualmente (HTML y CSS)
 
