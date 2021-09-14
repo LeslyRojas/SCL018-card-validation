@@ -257,7 +257,10 @@ cómo tu aplicación lo soluciona.
 
 Esta página es una biblioteca virtual para niños que quieran aprender inglés a través de la lectura. Para hacer uso de los recursos de la página, un suscriptor debe validar su tarjeta de crédito para obtener la membresía.
 
-Prototipo https://www.figma.com/file/F0lEELVAJQXZxj89PlP1Pb/Card-Validation?node-id=0%3A1
+Prototipo
+![prototipo final](src\imagenes\Prototipo2.png)
+
+ 
 
 ## Investigación y diseño.
 
@@ -265,7 +268,8 @@ Nuestros usuarios son niños, niños y niñes en etapa pre-escolar y escolar has
 
 Aprender inglés se ha vuelto una necesidad indispensable en el mundo actual, por ello muchos padres comienzan a incentivar desde la temprana edad el interés por este idioma a través de la lectura. Sin embargo la búsqueda de recursos apropiados para la edad del lector se hace dificultuosa para los tutores. Dada esta oportunidad, esta biblioteca ofrece lecturas clasificadas de acuerdo a la edad de los lectores para facilitar la transición de un nivel a otro.
 
-# Prototipo 1 https://drive.google.com/file/d/1mjJqknU16nPm3xKkejaH7xadpnAMsDd-/view?usp=sharing
+# Prototipo 1 
+![prototipo1](src/imagenes/prototipo1.png)
 
 ## Feedback:
 
@@ -274,6 +278,10 @@ De acuerdo a la retroalimentación obtenida el diseño contiene todas las partes
 # ¡¡QUEDAMOS ACÁ!!!
 
 3. Luego colocarás la foto de tu primer prototipo en papel.
+![foto](src\imagenes\prototipoPapel.jpg)
+
+
+
 4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
 5. Imagen del prototipo final.
 
