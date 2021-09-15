@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Tarjeta de crédito válida</title>
+    <title>My First English Library</title>
     <link rel="stylesheet" href="style.css" />
     <!--se agregó fuente desde google fonts, copiando links-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,61 +16,89 @@
   <body>
     <!--se agregaron clases e id, para poder invocarlas en CSS y JS-->
     <div class="container">
-      <div class="header">
-        <header>
-          <img class="logo" src="imagenes/astronauta.jpg" alt="" />
-          <h1>My First English Library</h1>
-          <h4>Lee y diviértete aprendiendo Inglés</h4>
-        </header>
-      </div>
+      <header>
+        <img
+          class="logo"
+          src="imagenes/astronauta.jpg"
+          alt="logotipo_astronauta"
+          title="logotipo_astronauta"
+        />
+        <h1>My First English Library</h1>
+        <h4>Lee y diviértete aprendiendo Inglés</h4>
+      </header>
       <br /><br />
 
       <!--se usó section para agrupar primera parte del contenido de la página-->
-      <section>
+      <div>
         <p class="parrafo1">Join us</p>
         <p class="parrafo2">and start your adventure!</p>
         <br />
 
         <p class="parrafo3">Membership!</p>
         <p class="parrafo4">¡Membresía!</p>
-      </section>
+      </div>
       <br /><br />
 
       <!--se cambió form a section por error en consola, -->
       <main>
         <section class="formulario">
           <!--se colocó imagen dentro de formulario para usarlo dentro del mismo section en CSS-->
-          <img class="imagenLateral" src="imagenes/astonauta2.jpg" alt="" />
-          <label class="subscriber">Subscriber name</label>
-          <label class="suscriptor">Nombre suscriptor</label>
+          <img
+            class="imagenLateral"
+            src="imagenes/astonauta2.jpg"
+            alt="astronauta_leyendo"
+            title="astronauta_leyendo"
+          />
+          <label for="nombreUsuario" class="subscriber">Subscriber name</label>
+          <p class="suscriptor">Nombre suscriptor</p>
           <!--cuadro de texto para ingresar nombre-->
           <input
-            type="text"  class="cuadroNombre"  name="nombre"  placeholder="Escriba su nombre"/>
-            <br />
+            type="text"
+            class="cuadroNombre"
+            id="nombreUsuario"
+            placeholder="Escriba su nombre"
+          />
+          <br />
 
-          <label class="card">Credit card number</label>
-          <label class="tarjeta">Número de tarjeta de crédito</label>
+          <label for="numeroTarjeta" class="card">Credit card number</label>
+          <p class="tarjeta">Número de tarjeta de crédito</p>
           <!--cuadro de texto para ingresa número de tarjeta-->
           <input
-            type="text" class="cuadroTarjeta" name="numeroTarjeta" id="numeroTarjeta" maxlength="16" placeholder="Ingrese su tarjeta"
+            type="text"
+            class="cuadroTarjeta"
+            id="numeroTarjeta"
+            maxlength="16"
+            placeholder="Ingrese su tarjeta"
           /><br />
 
           <!--botones tipo radiobutton para elegir membresía-->
           <input
-            class="botonesMembresia" type="radio" class="membresia" name="membresia" value="firstMonth"/>
+            type="radio"
+            class="membresia"
+            name="membresia"
+            value="firstMonth"
+          />
           First Month
-         
+
           <input
-            type="radio" class="membresia" name="membresia" value="sixmonths" />
+            type="radio"
+            class="membresia"
+            name="membresia"
+            value="sixmonths"
+          />
           6 Months
-          
+
           <input
-            type="radio" class="membresia" name="membresia" value="oneyear"/>
-          1 year 
+            type="radio"
+            class="membresia"
+            name="membresia"
+            value="oneyear"
+          />
+          1 year
           <br />
 
           <!--boton queda dentro del formulario-->
-          <button class="enviarNumero" id="enviarNumero">Register</button>
+          <button class="enviarNumero" id="enviarNumero">Register</button><br />
 
           <!--<p class="gratis" name="valores">Prueba gratuita</p>
           <p class="seisMeses" name="valores">7500 CLP</p>
@@ -81,9 +109,9 @@
       <br />
 
       <!--pie de página-->
-      <section class="pie">
+      <div class="pie">
         <footer class="footer">CopyrightMyFirstLibrary2021</footer>
-      </section>
+      </div>
 
       <script src="index.js" type="module"></script>
     </div>

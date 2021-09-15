@@ -8,7 +8,7 @@ body {
   background-size: cover;
 }
 /*diseño encabezado, logo y slogan*/
-.header {
+header {
   background: rgba(119, 197, 183, 0.59);
   border-radius: 32px;
   width: 90%;
@@ -128,15 +128,18 @@ h4 {
   margin-top: 120px;
   left: 100px;
 }
+::placeholder {
+  color: #2b225ea4;
+  font-size: small;
+  font-style: normal;
+}
 .membresia {
   color: #2b225e;
-  margin-top: 10px;
-}
-.botonesMembresia {
-  position: relative;
   margin-top: 150px;
+  position: relative;
   margin-left: 0px;
 }
+
 .enviarNumero {
   background: #ffe145;
   color: #2b225e;
@@ -157,12 +160,12 @@ h4 {
 /*.valores {
   display: display inline;
 }*/
-/*cuadro*/
+
 .pie {
   background: rgba(245, 237, 250, 0.45);
   border-radius: 53px;
 }
-/*letras*/
+
 .footer {
   color: #2b225ebe;
   margin-right: 0px;
