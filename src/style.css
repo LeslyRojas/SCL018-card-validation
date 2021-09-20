@@ -48,8 +48,23 @@ nav {
   margin-left: 50px;
   line-height: 5px;
   margin-top: -10px;
+  color: #2b225e;
 }
-
+nav ul li {
+  list-style: none;
+  margin-left: 90px;
+  padding: 0px;
+  float: left;
+}
+li a {
+  text-decoration: none;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+nav > li {
+  float: left;
+}
 
 /*primera parte del contenido de la pagina*/
 .parrafo1 {
