@@ -28,12 +28,12 @@ const validator = {
 
           //agregar los separados y sumados  a la suma total
           sumaTotal += sumarSeparados;
-        //agregar los multiplicados a la suma total
+          //agregar los multiplicados a la suma total
         } else {
           sumaTotal += multiplicar;
-          console.log(multiplicar);
+          //console.log(multiplicar);
         }
-      //si no agregarlo a la suma total
+        //si no agregarlo a la suma total
       } else {
         sumaTotal += parseInt(invertidos[i]);
       }
@@ -48,7 +48,6 @@ const validator = {
     }
   },
 
-  
   maskify(numeroTarjeta) {
     //establece condición minima para aplicar enmascarado
     if (numeroTarjeta.length < 4) return numeroTarjeta;
