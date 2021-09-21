@@ -39,32 +39,6 @@ h4 {
   left: 160px;
   margin-top: 35px;
 }
-nav {
-  background: rgba(245, 237, 250, 0.24);
-  border-radius: 32px;
-  width: 90%;
-  height: 25px;
-  padding: 10px;
-  margin-left: 50px;
-  line-height: 5px;
-  margin-top: -10px;
-  color: #2b225e;
-}
-nav ul li {
-  list-style: none;
-  margin-left: 90px;
-  padding: 0px;
-  float: left;
-}
-li a {
-  text-decoration: none;
-  display: block;
-  margin: 0px;
-  padding: 0px;
-}
-nav > li {
-  float: left;
-}
 
 /*primera parte del contenido de la pagina*/
 .parrafo1 {
